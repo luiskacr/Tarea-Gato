@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 oct. 2021, 18:39:20
+    Author     : luis_
+*/
+
+
+body{
+    background-color: white;
+}
+
+.container{
+    margin-top: 40px;
+}
+section{
+    text-align: center;
+}
+.titulo{
+    font-size: 100px;
+    color: #000;
+    margin-top: 40px;
+        
+}
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 600px;
+    margin: 10px auto;
+    background-color: #cccccc;
+    color: black;
+}
+
+.cell{
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 1px 1px 1px black;
+    cursor: pointer;
+    font-size: 60px;
+}
