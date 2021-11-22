@@ -5,41 +5,32 @@ package dao;
  * @author Steven
  */
 public class Jugador {
-    private String nombreJugador;
-    private int Puntaje;
-    private char TipoFicha; 
-
-    public Jugador(String nombreJugador, int Puntaje, char TipoFicha) {
-        this.nombreJugador = nombreJugador;
-        this.Puntaje = Puntaje;
-        this.TipoFicha = TipoFicha;
-    }
+    private String nombreJugador1;
+    private String nombreJugador2;
 
     public Jugador() {
     }
 
-    public String getNombreJugador() {
-        return nombreJugador;
+    public Jugador(String nombreJugador1, String nombreJugador2) {
+        this.nombreJugador1 = nombreJugador1;
+        this.nombreJugador2 = nombreJugador2;
     }
 
-    public void setNombreJugador(String nombreJugador) {
-        this.nombreJugador = nombreJugador;
+    public String getNombreJugador1() {
+        return nombreJugador1;
     }
 
-    public int getPuntaje() {
-        return Puntaje;
+    public void setNombreJugador1(String nombreJugador1) {
+        this.nombreJugador1 = nombreJugador1;
     }
 
-    public void setPuntaje(int Puntaje) {
-        this.Puntaje = Puntaje;
+    public String getNombreJugador2() {
+        return nombreJugador2;
     }
 
-    public char getTipoFicha() {
-        return TipoFicha;
+    public void setNombreJugador2(String nombreJugador2) {
+        this.nombreJugador2 = nombreJugador2;
     }
-
-    public void setTipoFicha(char TipoFicha) {
-        this.TipoFicha = TipoFicha;
-    }    
     
+        
 }
